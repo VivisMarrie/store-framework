@@ -12,6 +12,16 @@
     "children": ["product-images"]
   },
   "flex-layout.col#right": {
-    "children": ["product-name", "product-price", "buy-button"]
+    "children": ["product-name", "product-price", "buy-button"],
+    "props": {
+      "preventVerticalStretch": "true",
+      "verticalAlign": "middle"
+    }
+  },
+  "product-price": {
+    "props": {
+      "showSavings": true,
+      "showListPrice": true
+    }
   }
 }
