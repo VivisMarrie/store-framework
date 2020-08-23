@@ -12,28 +12,13 @@
   },
 
   "menu-item#major-appliances": {
-    "children": ["vtex.menu@2.x:submenu#major"],
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "itemProps": {
-        "text": "Major Aplliances"
-      }
-    }
+    "children": ["vtex.menu@2.x:submenu#major"]
   },
   "menu-item#small-appliances": {
     "children": ["vtex.menu@2.x:submenu#small"]
   },
   "menu-item#electronics": {
-    "children": ["vtex.menu@2.x:submenu#electronics"],
-    "props": {
-      "type": "category",
-      "highlight": true,
-      "itemProps": {
-        "categoryId": 3,
-        "text": "Electronics"
-      }
-    }
+    "children": ["vtex.menu@2.x:submenu#electronics"]
   },
 
   "vtex.menu@2.x:submenu#major": {
