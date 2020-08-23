@@ -1,6 +1,6 @@
 {
   "menu-item#major-appliances": {
-    "blocks": ["vtex.menu@2.x:submenu#major-appliances"],
+    "blocks": ["vtex.menu@2.x:submenu#major"],
     "props": {
       "type": "custom",
       "highlight": true,
@@ -10,7 +10,7 @@
     }
   },
   "menu-item#small-appliances": {
-    "blocks": ["vtex.menu@2.x:submenu#small-appliances"],
+    "blocks": ["vtex.menu@2.x:submenu#small"],
     "props": {
       "type": "category",
       "highlight": true,
