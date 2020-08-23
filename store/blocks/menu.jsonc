@@ -1,12 +1,4 @@
 {
-  "header-row#menu": {
-    "children": [
-      "header-spacer",
-      "vtex.menu@2.x:menu#categories",
-      "header-spacer"
-    ]
-  },
-
   "vtex.menu@2.x:menu#categories": {
     "children": [
       "menu-item#major-appliances",
