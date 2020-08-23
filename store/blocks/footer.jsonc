@@ -19,6 +19,7 @@
   "flex-layout.col#footer-left-desktop": {
     "children": ["accepted-payment-methods"]
   },
+
   "accepted-payment-methods": {
     "props": {
       "paymentMethods": ["MasterCard", "Visa", "Diners Club"],
