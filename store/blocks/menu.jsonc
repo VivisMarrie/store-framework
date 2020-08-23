@@ -20,7 +20,7 @@
   },
 
   "menu-item#major-appliances": {
-    "children": ["vtex.menu@2.x:menu#major"]
+    "children": ["vtex.menu@2.x:submenu#major"]
   },
 
   "vtex.menu@2.x:submenu#major": {
@@ -28,7 +28,7 @@
   },
 
   "menu-item#small-appliances": {
-    "children": ["vtex.menu@2.x:menu#small"]
+    "children": ["vtex.menu@2.x:submenu#small"]
   },
   "vtex.menu@2.x:submenu#small": {
     "children": ["vtex.menu@2.x:menu#small"]
